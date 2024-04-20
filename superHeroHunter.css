@@ -1,0 +1,71 @@
+/* for body */
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color:aliceblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* for h1 tag */
+h1 {
+    margin: 0;
+}
+
+/* for header */
+header {
+    background-color:hotpink;
+    color:aqua;
+    padding: 10px;
+    text-align: center;
+}
+
+/* for input search */
+#search-input {
+    padding: 8px;
+    margin-top: 10px;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* for super-container */
+#super-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* for superheroCard */
+.superheroCard {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+/* for superherocard img */
+.superheroCard img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: auto;
+}
+
+/* for favoriteButton */
+.favoriteButton {
+    background-color: rgb(0, 255, 0);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+/* for favoriteButton:hover */
+.favoriteButton:hover {
+    background-color: rgb(150, 22, 0);
+}
